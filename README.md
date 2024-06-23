@@ -48,4 +48,3 @@ Include screenshots or gifs of your application here.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
