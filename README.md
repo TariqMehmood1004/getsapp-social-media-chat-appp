@@ -1,16 +1,17 @@
-# getsapp
+# GetsApp
 
-A new Flutter project.
+This is Full stack Social Media Chat App like WhatsApp.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repository.git

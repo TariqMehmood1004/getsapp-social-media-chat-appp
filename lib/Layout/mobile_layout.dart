@@ -23,7 +23,7 @@ class _MobileLayoutScreenState extends State<MobileLayoutScreen> {
       child: Text("Updates"),
     ),
     Center(
-      child: Text("Business"),
+      child: Text("Communications"),
     ),
     Center(
       child: Text("Calls"),
@@ -89,13 +89,14 @@ class _MobileLayoutScreenState extends State<MobileLayoutScreen> {
         unselectedItemColor: colorGreen,
         showUnselectedLabels: true,
         type: BottomNavigationBarType.fixed,
+        iconSize: 18,
         items: const [
           BottomNavigationBarItem(
               icon: Icon(TablerIcons.message), label: "Chats"),
           BottomNavigationBarItem(
               icon: Icon(TablerIcons.status_change), label: "Updates"),
           BottomNavigationBarItem(
-              icon: Icon(TablerIcons.businessplan), label: "Business"),
+              icon: Icon(TablerIcons.users), label: "Communications"),
           BottomNavigationBarItem(
               icon: Icon(TablerIcons.phone), label: "Calls"),
           BottomNavigationBarItem(
