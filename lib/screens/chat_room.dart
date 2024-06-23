@@ -55,7 +55,7 @@ class _ChatRoomScreenState extends State<ChatRoomScreen> {
               ),
             ),
             subtitle: CustomTextWidget(
-              text: 'Online',
+              text: widget.data['status'].toString(),
               color: colorWhite,
               fontSize: 10,
               fontWeight: FontWeight.w500,

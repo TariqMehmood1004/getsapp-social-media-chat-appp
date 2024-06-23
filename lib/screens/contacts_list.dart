@@ -56,7 +56,9 @@ class _ContactsListScreenState extends State<ContactsListScreen> {
                     onTap: () {
                       Get.to(
                         () => ChatRoomScreen(data: data),
-                        transition: Transition.rightToLeftWithFade,
+                        transition: Transition.circularReveal,
+                        duration: const Duration(milliseconds: 500),
+                        popGesture: true,
                       );
                     },
                     contentPadding: const EdgeInsets.symmetric(
